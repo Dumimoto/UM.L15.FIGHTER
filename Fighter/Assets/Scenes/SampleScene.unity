@@ -123,6 +123,29 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &221931916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8239794170654295846, guid: a2160d73d9b3fe74b90585ac305bf977, type: 3}
+  m_PrefabInstance: {fileID: 2032120546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &221931917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221931916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09091ee391c21ca418e7b9e06b19abf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
+--- !u!4 &221931921 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8239794170653874950, guid: a2160d73d9b3fe74b90585ac305bf977, type: 3}
+  m_PrefabInstance: {fileID: 2032120546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &459320229
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +450,9 @@ MonoBehaviour:
   m_DampTime: 0.2
   m_ScreenEdgeBuffer: 4
   m_MinSize: 6.5
-  m_Targets: []
+  m_Targets:
+  - {fileID: 221931921}
+  - {fileID: 1666428384}
 --- !u!4 &1402052891
 Transform:
   m_ObjectHideFlags: 0
@@ -443,6 +468,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1666428380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6977499526446255210, guid: 974dc3c5414972a4caaf74b81c9ac31d, type: 3}
+  m_PrefabInstance: {fileID: 1981196270}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1666428384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6977499526446616650, guid: 974dc3c5414972a4caaf74b81c9ac31d, type: 3}
+  m_PrefabInstance: {fileID: 1981196270}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1666428385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666428380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e1457b9ba41be4ca38bf078abaf8a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
 --- !u!1001 &1981196270
 PrefabInstance:
   m_ObjectHideFlags: 0
